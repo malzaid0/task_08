@@ -6,7 +6,7 @@ class RestaurantForm(forms.ModelForm):
         model = Restaurant
         fields = '__all__'
 
-        widgets = {
-        	'opening_time': forms.TimeInput(attrs={'type':'time'}),
-        	'closing_time': forms.TimeInput(attrs={'type':'time'}),
-        }
+        # widgets = {
+        # 	'opening_time': forms.TimeInput(attrs={'type':'time'}),
+        # 	'closing_time': forms.TimeInput(attrs={'type':'time'}),
+        # }
